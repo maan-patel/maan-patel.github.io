@@ -396,6 +396,9 @@ ol {
     font-size: 20px;
 }
 
+.message-form{
+    color: red; 
+}
 .numbers {
     counter-increment: li;
     content: counter(li, decimal-leading-zero);
