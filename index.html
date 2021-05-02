@@ -61,7 +61,7 @@
                 <div class="column right">
                     <div class="text">I'm Maan and I'm a <span class="typing-2"></span></div>
                     <p>3rd year <b>Management Engineer</b> student at the <b>University of Waterloo</b>. I have experience in 
-                        fields such as <b>Web Development, Machine Learning/AI, & IT Security.</b> I can code in <b>JavaScript,
+                        fields such as <b>Web Development, IT Security & Project/Product Management.</b> I can code in <b>JavaScript,
                         Python & Ruby</b> using frameworks/ libraries such as <b>Express, Django, Pandas, Mathplotlib, Numpy & more!</b>
                         I have taken courses such as <b>Data Structures & Algorithms, Databases & Sofware Design, 
                         Linear Algebra, & Advanced Statistics.</b>
@@ -93,7 +93,11 @@
                         <img src="images/agf.png" alt="">
                         <div class="text">AGF Investments</div>
                         <h4>Network and Security Risk Analyst Intern</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p-><br>
+                            -<b>Mitigated organizational risk vulnerability by 7% </b>by creating a python script and using an API for detecting CVE vulnerabilities for every new software downloaded or webpage visited on a user's computer.  
+                            <br>
+                            -Presented project reports and vulnerabilities to senior IT heads in bi-weekly meetings.
+                            -Analyzed and made recommendations for AGF's Network </p>
                     </div>
                 </div>
                 <div class="card">
@@ -101,15 +105,20 @@
                         <img src="images/tdsb.png" alt="">
                         <div class="text">Toronto District School Board</div>
                         <h4>IT Security Risk & Audit Administrator Analyst Intern</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p></p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="https://www.cp24.com/polopoly_fs/1.4642814.1571328292!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg" alt="">
+                        <img src="https://i.imgur.com/VuiD2zu.png" alt="">
                         <div class="text">Toronto Public Library</div>
                         <h3>IT Project Manager</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p><br>-<b>Created a recommendation system</b> by mass collecting books checked out per user over a certain period, then using collaborative filtering, content-based recommender and assuming if person A has checked out similar book as person B, B’s book genre preference is more likely to be like A rather than a random user’s book genre preference.  
+                            <br>
+                            -The results were then used to generate marketing emails with the most popular book recommended for users that are interested in the genre. 
+                            <br>
+                            -Presented reports and hosted several events to help 
+                         </p>
                     </div>
                 </div>
                 <div class="card">
@@ -117,7 +126,10 @@
                         <img src="https://media-exp1.licdn.com/dms/image/C510BAQFA9lL4pakFBA/company-logo_200_200/0/1519901467889?e=2159024400&v=beta&t=kfyXjEvDgHwDh5sHmEbzBXEv8KcbnVGvkjhlPOrjzOo" alt="">
                         <div class="text">CIS Office Plus</div>
                         <h4>Digital Marketing Coordinator</h4>
-                        <p>Digital Marketing Coordinator</p>
+                        <br>
+                        <p>-Managed and updated several e-commerce websites written in <b>JavaScript, Python, PHP, HTML, & CSS. Increased SEO score by 12% and decreased website load times significantly by adding metadata, XML sitemaps, ASYNC functions, minimizing HTTP requests, and minifying JS/CSS files. </b> 
+                            <br>
+                            -Worked closely with the product manager and other developers in an agile environment to create new websites for clients with optimized SEO scores, XML sitemaps, secure sites, and back-end functionality. </p>
                     </div>
                 </div>
                 <!-- <div class="card">
@@ -270,22 +282,23 @@
                         
                     </div>
                 </div>
+                
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form class="contact-form" action="#" method="POST">
+                    <form class="contact-form" action="contact.php" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" class="fullname" placeholder="Name">
+                                <input type="text" name="visitor_name" class="fullname" placeholder="Name">
                             </div>
                             <div class="field email">
-                                <input type="text" class="email-input" placeholder="Email">
+                                <input type="text" name="visitor_email" class="email-input" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" class="subject" placeholder="Subject">
+                            <input type="text" class="subject" placeholder="Subject" name="email_title">
                         </div>
                         <div class="field textarea">
-                            <textarea class="message" cols="30" rows="10" placeholder="Message.."></textarea>
+                            <textarea class="message" name="visitor_message" cols="30" rows="10" placeholder="Message.."></textarea>
                         </div>
                         <div class="button-area">
                             <button class="send-msg" type="submit" name="send">Send message</button>
