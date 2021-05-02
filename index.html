@@ -285,24 +285,28 @@
                 
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form class="contact-form" action="contact.php" method="POST">
+                    <form class="contact-form" id="fs-frm" name="simple-contact-form" accept-charset="utf-8"action="https://formspree.io/f/xdoyadkd" method="POST">
+                        <!-- <fieldset id="fs-frm-inputs"> -->
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" name="visitor_name" class="fullname" placeholder="Name">
+                                <input type="text" name="name" class="fullname" placeholder="Name">
                             </div>
                             <div class="field email">
-                                <input type="text" name="visitor_email" class="email-input" placeholder="Email" required>
+                                <input type="text" name="_replyto" class="email-input" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" class="subject" placeholder="Subject" name="email_title">
+                            <input type="text" class="subject" placeholder="Subject" name="_subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea class="message" name="visitor_message" cols="30" rows="10" placeholder="Message.."></textarea>
+                            <textarea class="message" name="visitor_message" cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
+                    <!-- </fieldset> -->
+                    
                         <div class="button-area">
-                            <button class="send-msg" type="submit" name="send">Send message</button>
+                            <button class="send-msg" type="submit" name="message">Send message</button></a>
                         </div>
+                    
                     </form>
                 </div>
             </div>

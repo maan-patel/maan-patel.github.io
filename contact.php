@@ -1,3 +1,5 @@
+//  Github pages does not allow non-static sites and hence, this php code does not work.
+
 <?php
   
 if($_POST) {
