@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Maan Patel
 - 👀 I’m interested in Full Stack Development
-- 🌱 I can code in JavaScript, Python & Ruby using frameworks/ libraries such as Express, Django, Pandas, Mathplotlib, Numpy & more. 
+- 🌱 I can code in JavaScript, Python, Java, C# & Ruby using frameworks/ libraries such as Express, React, Django & more. 
 - :books: I am a third year Engineering student at the University of Waterloo, and have taken courses such as Data Structures & Algorithms, Databases & Sofware Design, Linear Algebra, and Advanced Statistics.
 - 📫 You can reach out to me at: patel.maan14@gmail.com
 
