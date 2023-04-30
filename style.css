@@ -35,6 +35,9 @@ section{
     padding: 0 80px;
     margin: auto;
 }
+.experience-text{
+    text-align: left;
+}
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
@@ -220,7 +223,7 @@ section .title::after{
 }
 /* about section styling */
 .about .title::after{
-    content: "Who am I";
+    content: "Who I am";
 }
 .about .about-content .left{
     width: 45%;
@@ -311,7 +314,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "What i know";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -491,7 +494,7 @@ ol {
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "Get in touch";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
